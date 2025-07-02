@@ -67,7 +67,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="w-full mt-24 md:mt-0 border-2  md:w-1/2 min-h-[350px] md:min-h-[500px] relative">
+        <div className="w-full mt-24 md:mt-0 border-2 border-primary  md:w-1/2 min-h-[350px] md:min-h-[500px] relative">
           <Image src={img} alt="Office" fill className="object-cover" />
         </div>
       </section>

@@ -73,7 +73,7 @@ export default function FloatingChatFAB() {
                     <Tooltip>
                         <TooltipTrigger asChild>
                             <a
-                                href="https://wa.me/8801911247183"
+                                href="https://wa.me/8801671108210"
                                 className="bg-green-500 p-3.5 rounded-full shadow-lg transition hover:scale-110"
                                 title="WhatsApp"
                             >
@@ -112,10 +112,10 @@ export default function FloatingChatFAB() {
                     <TooltipTrigger asChild>
                         <button
                             onClick={() => setOpen(true)}
-                            className="bg-white cursor-pointer p-4 rounded-full shadow-lg transition hover:scale-110"
+                            className="bg-orange-600  cursor-pointer p-4 rounded-full shadow-lg transition hover:scale-110"
                             title="Chat"
                         >
-                            <FaCommentAlt className="text-black" size={20} />
+                            <FaCommentAlt className="text-white" size={20} />
                         </button>
                     </TooltipTrigger>
                     <TooltipContent side="left" >

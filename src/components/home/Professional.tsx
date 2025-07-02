@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import img from "@/assets/about/l1.jpg";
+import img from "@/assets/about/l2.jpg";
 import Link from "next/link";
 
 export default function ProfessionalSection() {

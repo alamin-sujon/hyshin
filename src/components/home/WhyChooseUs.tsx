@@ -1,6 +1,6 @@
 import React from "react";
 import { Lightbulb, Truck, Settings, Leaf, DollarSign } from "lucide-react";
-import img from "@/assets/whychoos.webp";
+import img from "@/assets/about/pro.jpg";
 const features = [
   {
     text: "Stable Product Quality",

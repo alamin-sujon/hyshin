@@ -64,8 +64,8 @@ export default function Footer() {
                 House No. 04 (5th Floor), Road No. 12, <br /> Sector 04, Uttara Model Town,{" "}
                 <br /> Dhaka, Bangladesh.
               </p>
-              <p className="text-base mb-2">+880 1911-247183 </p>
-              <p className="text-base mb-4">info.hunhsintextile@gmail.com</p>
+              <p className="text-base mb-2">+880 1714-117393 </p>
+              <p className="text-base mb-4">info@hunhsintextile.com</p>
             </div>
 
             {/* Quick Links */}

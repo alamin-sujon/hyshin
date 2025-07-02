@@ -1,4 +1,4 @@
-import ab1 from "@/assets/about/ab-01.jpg";
+import ab1 from "@/assets/about/ab-04.jpg";
 import ab2 from "@/assets/about/ab-02.jpg";
 import Image from "next/image";
 import bg1 from "@/assets/about/t1.jpeg";

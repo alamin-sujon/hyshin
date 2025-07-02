@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from "@/assets/process/1.webp";
-import img2 from "@/assets/process/p2.jpeg";
-import img3 from "@/assets/process/p3.jpeg";
-import img4 from "@/assets/process/p4.jpeg";
-import img5 from "@/assets/process/p5.webp";
+import img1 from "@/assets/process/p1.jpg";
+import img2 from "@/assets/process/p3.jpeg";
+import img3 from "@/assets/process/p3.jpg";
+import img4 from "@/assets/process/p4.jpg";
+import img5 from "@/assets/process/p5555.jpg";
 import Image from "next/image";
 export const metadata = {
   title: 'Our Production Process | Hun Hsin Textile',
@@ -83,7 +83,7 @@ export default function OurProcessPage() {
               data-aos="zoom-in"
               data-aos-duration="1200"
             >
-              <Image src={img2} alt="Spinning process" className=" shadow-lg" />
+              <Image src={img2} alt="Spinning process" className=" shadow-lg h-[400px] object-cover" />
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function OurProcessPage() {
               data-aos="zoom-in"
               data-aos-duration="1200"
             >
-              <Image src={img3} alt="Weaving process" className=" shadow-lg" />
+              <Image src={img3} alt="Weaving process" className="max-h-[400px] object-cover shadow-lg" />
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@ export default function OurProcessPage() {
               data-aos="zoom-in"
               data-aos-duration="1200"
             >
-              <Image src={img5} alt="Dyeing process" className="shadow-lg" />
+              <Image src={img5} alt="Dyeing process" className="shadow-lg max-h-[400px] object-cover" />
             </div>
           </div>
         </div>

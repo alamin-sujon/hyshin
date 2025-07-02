@@ -71,7 +71,7 @@ export default async function ProductDetails({
         {/* Right Image */}
         <div className="flex flex-1 justify-center items-center">
           <Image
-            src={product?.image1 as string} // update this path
+            src={product?.image as string} // update this path
             alt="Nylon Yarn Factory"
             width={700}
             height={550}

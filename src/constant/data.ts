@@ -1,10 +1,12 @@
 import { StaticImageData } from "next/image";
 import img1 from "@/assets/nylon/one.webp";
 import img2 from "@/assets/nylon/two.webp";
-import img3 from "@/assets/nylon/33.jpg";
+import img3 from "@/assets/nylon/3.jpg";
 
 import nylonimg1 from "@/assets/nylon/1.jpg";
-import nylonimg2 from "@/assets/nylon/2.jpg";
+import nylon from "@/assets/nylon/nylon.jpg";
+import recycle from "@/assets/nylon/recycle.jpg";
+import china from "@/assets/nylon/china.jpg";
 type Product = {
   id: number;
   title: string;
@@ -40,7 +42,7 @@ export const products: Product[] = [
       "Hun Hsin Textile’s 100% Nylon Yarn is engineered from virgin polyamide 6 or 6.6 chips, processed using advanced dyeing and spinning technology. It offers outstanding strength, durability, and elasticity, making it ideal for premium activewear, socks, underwear, seamless knits, and industrial applications. Its smooth finish and color vibrancy make it one of the most demanded synthetic yarns for modern textile manufacturing.",
     image: img1,
     image1: nylonimg1,
-    image2: nylonimg2,
+    image2: nylon,
     keyFeatures: [
       "Virgin-grade nylon chips ensure consistent output",
       "High strength & stretch for long-lasting garments",
@@ -103,7 +105,7 @@ export const products: Product[] = [
 
     image: img2,
     image1: nylonimg1,
-    image2: nylonimg2,
+    image2: recycle,
     keyFeatures: [
       "Made from 100% recycled polyamide waste",
       "Comparable performance to virgin yarn",
@@ -202,7 +204,7 @@ export const products: Product[] = [
       },
     ],
     image1: nylonimg1,
-    image2: nylonimg2,
+    image2: china,
     link: "/nylon-yarn",
     conc: {
       title: "Why It Matters to You",
